@@ -1,5 +1,4 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1091,5): warning MSB8027: Two or more files with the name of Tutorial07.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are src\Tutorial07.cpp, Tutorial07.cpp.
-  Tutorial07.cpp
+﻿  Tutorial07.cpp
 D:\Include\dxgitype.h(12,1): warning C4005: 'DXGI_STATUS_OCCLUDED': macro redefinition
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56388): message : see previous definition of 'DXGI_STATUS_OCCLUDED'
 D:\Include\dxgitype.h(13,1): warning C4005: 'DXGI_STATUS_CLIPPED': macro redefinition
@@ -118,23 +117,4 @@ D:\Include\xnamathvector.inl(1269,78): warning C4838: conversion from 'unsigned 
 D:\Include\xnamathmisc.inl(518,43): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
 D:\Include\xnamathmisc.inl(519,40): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
 D:\Include\xnamathmisc.inl(519,51): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(137,48): error C2440: '=': cannot convert from 'const wchar_t [20]' to 'LPCSTR'
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(137,26): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(146,1): error C2664: 'HWND CreateWindowExA(DWORD,LPCSTR,LPCSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': cannot convert argument 2 from 'const wchar_t [20]' to 'LPCSTR'
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(146,1): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(4416,1): message : see declaration of 'CreateWindowExA'
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(175,10): error C2664: 'HRESULT D3DX11CompileFromFileA(LPCSTR,const D3D10_SHADER_MACRO *,LPD3D10INCLUDE,LPCSTR,LPCSTR,UINT,UINT,ID3DX11ThreadPump *,ID3D10Blob **,ID3D10Blob **,HRESULT *)': cannot convert argument 1 from 'WCHAR *' to 'LPCSTR'
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(175,33): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
-D:\Include\d3dx11async.h(75,16): message : see declaration of 'D3DX11CompileFromFileA'
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(304,9): error C2664: 'int MessageBoxA(HWND,LPCSTR,LPCSTR,UINT)': cannot convert argument 2 from 'const wchar_t [106]' to 'LPCSTR'
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(305,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9153,1): message : see declaration of 'MessageBoxA'
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(340,9): error C2664: 'int MessageBoxA(HWND,LPCSTR,LPCSTR,UINT)': cannot convert argument 2 from 'const wchar_t [106]' to 'LPCSTR'
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(341,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9153,1): message : see declaration of 'MessageBoxA'
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(461,113): error C2664: 'HRESULT D3DX11CreateShaderResourceViewFromFileA(ID3D11Device *,LPCSTR,D3DX11_IMAGE_LOAD_INFO *,ID3DX11ThreadPump *,ID3D11ShaderResourceView **,HRESULT *)': cannot convert argument 2 from 'const wchar_t [13]' to 'LPCSTR'
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(461,64): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
-D:\Include\d3dx11tex.h(439,5): message : see declaration of 'D3DX11CreateShaderResourceViewFromFileA'
-  Tutorial07.cpp
-c1xx : fatal error C1083: Cannot open source file: 'Tutorial07.cpp': No such file or directory
-  Generating Code...
+  Tutorial07_2010.vcxproj -> D:\Visual Arquitectura de motores graficos\Tutorial07\bin\x64\Tutorial07_d.exe

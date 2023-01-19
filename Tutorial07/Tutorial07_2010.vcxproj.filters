@@ -25,24 +25,18 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Tutorial07.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Tutorial07.fx">
       <Filter>Shaders</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <CLInclude Include="resource.h">
-      <Filter>Resource Files</Filter>
-    </CLInclude>
-    <ResourceCompile Include="Tutorial07.rc">
-      <Filter>Resource Files</Filter>
-    </ResourceCompile>
     <ClInclude Include="Include\Resource.h">
       <Filter>Include</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ResourceCompile Include="Tutorial07.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

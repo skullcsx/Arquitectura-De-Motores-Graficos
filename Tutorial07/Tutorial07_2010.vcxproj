@@ -392,20 +392,17 @@
       </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
-  <ItemGroup />
   <ItemGroup>
     <ClCompile Include="src\Tutorial07.cpp" />
-    <ClCompile Include="Tutorial07.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Tutorial07.fx" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Include\Resource.h" />
-    <CLInclude Include="resource.h" />
-    <ResourceCompile Include="Tutorial07.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ResourceCompile Include="Tutorial07.rc" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

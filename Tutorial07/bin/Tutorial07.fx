@@ -10,22 +10,27 @@
 Texture2D txDiffuse : register( t0 );
 SamplerState samLinear : register( s0 );
 
-cbuffer cbNeverChanges : register( b0 )
+//cbuffer cbNeverChanges : register( b0 )
+//{
+//    matrix View;
+//};
+
+//cbuffer cbChangeOnResize : register( b1 )
+//{
+//    matrix Projection;
+//};
+
+cbuffer Camera : register(b0)
 {
     matrix View;
-};
-
-cbuffer cbChangeOnResize : register( b1 )
-{
     matrix Projection;
 };
 
-cbuffer cbChangesEveryFrame : register( b2 )
+cbuffer cbChangesEveryFrame : register(b1)
 {
     matrix World;
     float4 vMeshColor;
 };
-
 
 //--------------------------------------------------------------------------------------
 struct VS_INPUT

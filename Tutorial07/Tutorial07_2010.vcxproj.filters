@@ -34,6 +34,9 @@
     <ClInclude Include="Include\Time.h">
       <Filter>Include</Filter>
     </ClInclude>
+    <ClInclude Include="Include\Prerequisites.h">
+      <Filter>Include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Tutorial07.rc">

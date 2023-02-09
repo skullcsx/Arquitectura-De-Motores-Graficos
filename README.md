@@ -2,8 +2,6 @@
 
 César Augusto Badillo Osornio 8vo cuatrimestre
 
-de que trata el proyecto
-
 Este es el proyecto del tutorial 7 donde hemos estado trabajando a lo largo del parcial, el entregable y trabajo que realice es que el cubo que se genera en el
 proyecto se pueda mover en el eje "X" y "Y" al igual que cambiar de color, estas acciones se realizan al oprimir teclas especificas.
 

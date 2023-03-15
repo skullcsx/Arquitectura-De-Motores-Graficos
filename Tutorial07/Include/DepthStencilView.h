@@ -1,6 +1,6 @@
 #include "Prerequisites.h"
 
-//Call to the Class is begin used in cpp (Device)
+
 class
 	Device;
 
@@ -10,7 +10,7 @@ public:
 	DepthStencilView() = default;
 	~DepthStencilView() { SAFE_RELEASE(m_pDepthStencilView) };
 
-	//Create the depth stencil view
+	
 	void
 		init(Device device, ID3D11Resource* depthStencil, DXGI_FORMAT Format);
 

@@ -1,6 +1,5 @@
 #include "Prerequisites.h"
 
-//Call to the Class is begin used in cpp (Window)
 class
 	Window;
 
@@ -10,7 +9,6 @@ public:
 	Viewport() = default;
 	~Viewport() {};
 
-	//Defines the dimensions of a viewport (width & height)
 	void
 		init(Window window);
 

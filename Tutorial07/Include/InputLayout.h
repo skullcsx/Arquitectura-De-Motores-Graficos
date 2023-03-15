@@ -1,6 +1,5 @@
 #include "Prerequisites.h"
 
-//Call to the Class is begin used in cpp (Device)
 class
 	Device;
 
@@ -11,7 +10,7 @@ public:
 	InputLayout() = default;
 	~InputLayout() { SAFE_RELEASE(m_inputLayout) };
 
-	// Create the input layout, it needs a vector & device
+	
 	void
 		init(Device device,
 			std::vector<D3D11_INPUT_ELEMENT_DESC> Layout,

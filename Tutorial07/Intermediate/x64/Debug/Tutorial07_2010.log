@@ -117,12 +117,7 @@ D:\Include\xnamathvector.inl(1269,78): warning C4838: conversion from 'unsigned 
 D:\Include\xnamathmisc.inl(518,43): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
 D:\Include\xnamathmisc.inl(519,40): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
 D:\Include\xnamathmisc.inl(519,51): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(370,51): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(546,19): warning C4100: 'deltatime': unreferenced formal parameter
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(679,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(679,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(679,45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(684,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(689,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(694,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(209,89): warning C4244: 'argument': conversion from 'SIZE_T' to 'unsigned int', possible loss of data
+D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(272,59): warning C4244: 'argument': conversion from 'SIZE_T' to 'unsigned int', possible loss of data
+D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(228,18): warning C4189: 'numElements': local variable is initialized but not referenced
   Tutorial07_2010.vcxproj -> D:\Visual Arquitectura de motores graficos\Tutorial07\bin\x64\Tutorial07_d.exe

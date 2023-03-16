@@ -12,9 +12,11 @@ public:
 Texture() = default;
 ~Texture() {};
 
+//initializes all textures
 void
 init(Device device, std::string textureName);
 
+//initializes the texture using its length and width
 void
 init(Device device,
      unsigned int width,
@@ -32,8 +34,10 @@ void
 destroy();
 
 public:
-	
+
+//handles a texture resource as data
 ID3D11Texture2D* m_texture = nullptr;
 	
+//Handles a texture as image data
 ID3D11ShaderResourceView* m_textureFromImg = nullptr;
 };

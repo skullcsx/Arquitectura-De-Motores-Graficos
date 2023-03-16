@@ -11,6 +11,7 @@ InputLayout() = default;
 ~InputLayout() { SAFE_RELEASE(m_inputLayout) };
 
 	
+//we initialize the InputLayout
 void
 init(Device device,
      std::vector<D3D11_INPUT_ELEMENT_DESC> Layout,

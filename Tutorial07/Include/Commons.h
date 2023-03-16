@@ -1,3 +1,4 @@
+//Include the file Prerequisites.h
 #include "Prerequisites.h"
 #pragma once
 
@@ -5,24 +6,28 @@
 //--------------------------------------------------------------------------------------
 // Structures
 //--------------------------------------------------------------------------------------
+//We create a simpleVertex Structure
 struct 
 SimpleVertex{
 XMFLOAT3 Pos;
 XMFLOAT2 Tex;
 };
 
+//Create a Camera structure 
 struct 
 Camera{
 XMMATRIX mView;
 XMMATRIX mProjection;
 };
 
+//We create a CBChangesEveryFrame structure
 struct 
 CBChangesEveryFrame{
 XMMATRIX mWorld;
 XMFLOAT4 vMeshColor;
 };
 
+//We create a Vector 3 structure for the movement of the cube
 struct 
 Vector3{
 float x = 0.0f;

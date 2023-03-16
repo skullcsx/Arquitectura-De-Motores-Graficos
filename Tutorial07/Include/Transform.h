@@ -21,6 +21,7 @@ void
 destroy();
 
 public:
+//we declare a variable as vector 3 for the movement of the cube
 Vector3 CubePosition;
 
 };

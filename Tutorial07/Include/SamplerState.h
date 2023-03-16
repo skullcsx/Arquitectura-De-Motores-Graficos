@@ -1,5 +1,6 @@
 #include "Prerequisites.h"
 
+//call the Device class
 class
 Device;
 
@@ -10,7 +11,7 @@ public:
 SamplerState() = default;
 ~SamplerState() {};
 
-	
+//we initialize the SamplerState
 void
 init(Device device);
 

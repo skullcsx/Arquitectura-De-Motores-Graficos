@@ -1,17 +1,22 @@
 #include "Prerequisites.h"
 
+//call the Device class
 class
 Device;
 
+//call the DeviceContext class
 class
 DeviceContext;
 
+//call the Window class
 class
 Window;
 
+//call the Texture class
 class
 Texture;
 
+//we create the SwapChain class
 class 
 SwapChain{
 
@@ -19,7 +24,7 @@ public:
 SwapChain() = default;
 ~SwapChain() {};
 
-	
+//we initialize the SwapChain
 void
 init(Device& device,
      DeviceContext& deviceContext,

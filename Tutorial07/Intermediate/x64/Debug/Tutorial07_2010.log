@@ -476,8 +476,8 @@ D:\Include\xnamathvector.inl(1269,78): warning C4838: conversion from 'unsigned 
 D:\Include\xnamathmisc.inl(518,43): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
 D:\Include\xnamathmisc.inl(519,40): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
 D:\Include\xnamathmisc.inl(519,51): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\InputLayout.cpp(20,39): warning C4244: 'argument': conversion from 'SIZE_T' to 'unsigned int', possible loss of data
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\InputLayout.cpp(21,22): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\Visual Arquitectura de motores graficos\Tutorial07\src\InputLayout.cpp(20,57): warning C4244: 'argument': conversion from 'SIZE_T' to 'unsigned int', possible loss of data
+D:\Visual Arquitectura de motores graficos\Tutorial07\src\InputLayout.cpp(21,40): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
   RenderTargetView.cpp
 D:\Include\dxgitype.h(12,1): warning C4005: 'DXGI_STATUS_OCCLUDED': macro redefinition
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56388): message : see previous definition of 'DXGI_STATUS_OCCLUDED'
@@ -597,7 +597,7 @@ D:\Include\xnamathvector.inl(1269,78): warning C4838: conversion from 'unsigned 
 D:\Include\xnamathmisc.inl(518,43): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
 D:\Include\xnamathmisc.inl(519,40): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
 D:\Include\xnamathmisc.inl(519,51): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\RenderTargetView.cpp(8,25): warning C4100: 'Format': unreferenced formal parameter
+D:\Visual Arquitectura de motores graficos\Tutorial07\src\RenderTargetView.cpp(8,36): warning C4100: 'Format': unreferenced formal parameter
   SamplerState.cpp
 D:\Include\dxgitype.h(12,1): warning C4005: 'DXGI_STATUS_OCCLUDED': macro redefinition
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56388): message : see previous definition of 'DXGI_STATUS_OCCLUDED'

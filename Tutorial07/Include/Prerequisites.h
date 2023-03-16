@@ -3,7 +3,7 @@
 #include <sstream>
 #include <vector>
 
-//librerias externas
+//External libs
 #include <d3d11.h>
 #include <d3dx11.h>
 #include <d3dcompiler.h>
@@ -16,7 +16,7 @@
 #include "resource.h"
 
 //defines
-//debug avanzado
+//Advanced debug 
 #define WINDOWS
 #define WARNING( s )											  \
 {											                      \

@@ -10,6 +10,7 @@ public:
 Viewport() = default;
 ~Viewport() {};
 
+//We define the dimensions of the window 
 void
 init(Window window);
 

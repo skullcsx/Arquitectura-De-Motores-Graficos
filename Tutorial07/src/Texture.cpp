@@ -37,10 +37,10 @@ if (FAILED(hr)) {
 
 void
 Texture::init(Device device,
-unsigned int width,
-unsigned int height,
-DXGI_FORMAT Format,
-unsigned int BindFlags) {
+							unsigned int width,
+							unsigned int height,
+							DXGI_FORMAT Format,
+							unsigned int BindFlags) {
 if (device.m_device == nullptr) {
 	WARNING("ERROR: Texture::init : [CREATION OF RESOURCE : FALSE] [CHECK FOR Device device] \n");
 	exit(1);

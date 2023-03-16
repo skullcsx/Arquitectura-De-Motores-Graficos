@@ -1,5 +1,4 @@
-﻿  CTime.cpp
-  DepthStencilView.cpp
+﻿  DepthStencilView.cpp
 D:\Include\dxgitype.h(12,1): warning C4005: 'DXGI_STATUS_OCCLUDED': macro redefinition
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56388): message : see previous definition of 'DXGI_STATUS_OCCLUDED'
 D:\Include\dxgitype.h(13,1): warning C4005: 'DXGI_STATUS_CLIPPED': macro redefinition
@@ -598,7 +597,7 @@ D:\Include\xnamathvector.inl(1269,78): warning C4838: conversion from 'unsigned 
 D:\Include\xnamathmisc.inl(518,43): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
 D:\Include\xnamathmisc.inl(519,40): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
 D:\Include\xnamathmisc.inl(519,51): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\RenderTargetView.cpp(8,21): warning C4100: 'Format': unreferenced formal parameter
+D:\Visual Arquitectura de motores graficos\Tutorial07\src\RenderTargetView.cpp(8,25): warning C4100: 'Format': unreferenced formal parameter
   SamplerState.cpp
 D:\Include\dxgitype.h(12,1): warning C4005: 'DXGI_STATUS_OCCLUDED': macro redefinition
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h(56388): message : see previous definition of 'DXGI_STATUS_OCCLUDED'

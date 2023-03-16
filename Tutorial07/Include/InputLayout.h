@@ -13,8 +13,8 @@ InputLayout() = default;
 	
 void
 	init(Device device,
-		 std::vector<D3D11_INPUT_ELEMENT_DESC> Layout,
-		 ID3DBlob* VertexShaderData);
+			std::vector<D3D11_INPUT_ELEMENT_DESC> Layout,
+			ID3DBlob* VertexShaderData);
 
 void
 	update();

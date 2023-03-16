@@ -22,8 +22,5 @@ destroy();
 
 public:
 Vector3 CubePosition;
-float m_fScale;
-float m_fRotate;
-float m_fSpeed;
 
 };

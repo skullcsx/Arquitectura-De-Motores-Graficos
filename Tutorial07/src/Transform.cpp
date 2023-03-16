@@ -2,9 +2,7 @@
 
 void 
 Transform::init() {
-m_fRotate = 0.0002f;
-m_fScale = 0.5f;
-m_fSpeed = 100.0f;
+
 }
 
 void 

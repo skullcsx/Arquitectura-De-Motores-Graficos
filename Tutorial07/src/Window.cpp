@@ -32,16 +32,16 @@ if (!RegisterClassEx(&wcex))
 RECT rc = { 0, 0, 1500, 840 };
 AdjustWindowRect(&rc, WS_OVERLAPPEDWINDOW, FALSE);
 m_hWnd = CreateWindow("TutorialWindowClass",
-                        m_windowName.data(), 
-                        WS_OVERLAPPEDWINDOW,
-                        CW_USEDEFAULT,
-                        CW_USEDEFAULT, 
-                        rc.right - rc.left,
-                        rc.bottom - rc.top, 
-                        nullptr, 
-                        nullptr, 
-                        hInstance,
-                        nullptr);
+                      m_windowName.data(), 
+                      WS_OVERLAPPEDWINDOW,
+                      CW_USEDEFAULT,
+                      CW_USEDEFAULT, 
+                      rc.right - rc.left,
+                      rc.bottom - rc.top, 
+                      nullptr, 
+                      nullptr, 
+                      hInstance,
+                      nullptr);
 if (!m_hWnd)
     return E_FAIL;
 

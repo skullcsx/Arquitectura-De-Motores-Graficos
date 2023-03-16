@@ -6,7 +6,7 @@
 
 void
 SwapChain::init(Device& device, DeviceContext& deviceContext, 
-				Texture& backBuffer, Window window) {
+								Texture& backBuffer, Window window) {
 if (window.m_hWnd == nullptr) {
 	WARNING("ERROR: SwapChain::init : [CREATION OF RESOURCE : FALSE] [CHECK FOR Window window] \n");
 	exit(1);

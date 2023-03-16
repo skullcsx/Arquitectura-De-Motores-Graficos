@@ -3,8 +3,8 @@
 
 void
 InputLayout::init(Device device,
-				  std::vector<D3D11_INPUT_ELEMENT_DESC> Layout,
-				  ID3DBlob* VertexShaderData) {
+									std::vector<D3D11_INPUT_ELEMENT_DESC> Layout,
+									ID3DBlob* VertexShaderData) {
 if (Layout.size() == 0) {
 	WARNING("ERROR: InputLayout::init : [CREATION OF RESOURCE : FALSE] [CHECK FOR std::vector<D3D11_INPUT_ELEMENT_DESC> Layout Size()] \n");
 	exit(1);

@@ -26,8 +26,10 @@ Las teclas que utilice para las acciones son las siguientes:
   "Y" para el color verde
   
   "U" para el color azul
+  
+ -----------------------------------------------------------------------------------
 
-#Entrega del segundo parcial
+# Entrega del segundo parcial
 
 César Augusto Badillo Osornio 8vo cuatrimestre
 
@@ -56,4 +58,19 @@ En este parcial realizamos la abstaccion de las siguientes clases del proyecto:
  -SamplerState
  
  -Viewport
+ 
+ -----------------------------------------------------------------------------------
 
+Correcciones al cambio de color 
+
+-Cambio de color
+
+  "0" para el color blanco
+  
+  "R" para el color rojo
+  
+  "G" para el color verde
+  
+  "B" para el color azul
+ 
+ Tambien se realizaron las correcciones de setear los colores sumando 1 al color y no usando decimales

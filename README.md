@@ -61,7 +61,7 @@ En este parcial realizamos la abstaccion de las siguientes clases del proyecto:
  
  -----------------------------------------------------------------------------------
  
- Manda un breakpoint en el destroy() del DepthStencilView al derrar la ventana de la aplicacion
+ Manda un breakpoint en el destroy() del DepthStencilView al cerrar la ventana de la aplicacion
  
  -----------------------------------------------------------------------------------
 

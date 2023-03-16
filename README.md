@@ -61,7 +61,7 @@ En este parcial realizamos la abstaccion de las siguientes clases del proyecto:
  
  -----------------------------------------------------------------------------------
 
-Correcciones al cambio de color 
+# Correcciones al cambio de color 
 
 -Cambio de color
 

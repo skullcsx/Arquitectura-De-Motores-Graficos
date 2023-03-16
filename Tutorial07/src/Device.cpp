@@ -18,8 +18,8 @@ Device::destroy() {
 
 HRESULT
 Device::CreateDepthStencilView(ID3D11Resource* pResource,
-															const D3D11_DEPTH_STENCIL_VIEW_DESC* pDesc,
-															ID3D11DepthStencilView** ppDepthStencilView) {
+                               const D3D11_DEPTH_STENCIL_VIEW_DESC* pDesc,
+                               ID3D11DepthStencilView** ppDepthStencilView) {
 	HRESULT hr = S_OK;
 
 	if (pResource == nullptr) {
@@ -40,8 +40,8 @@ Device::CreateDepthStencilView(ID3D11Resource* pResource,
 
 HRESULT
 Device::CreateRenderTargetView(ID3D11Resource* pResource,
-															const D3D11_RENDER_TARGET_VIEW_DESC* pDesc,
-															ID3D11RenderTargetView** ppRTView) {
+                               const D3D11_RENDER_TARGET_VIEW_DESC* pDesc,
+                               ID3D11RenderTargetView** ppRTView) {
 	HRESULT hr = S_OK;
 
 	if (pResource == nullptr) {
@@ -62,8 +62,8 @@ Device::CreateRenderTargetView(ID3D11Resource* pResource,
 
 HRESULT
 Device::CreateTexture2D(const D3D11_TEXTURE2D_DESC* pDesc,
-												const D3D11_SUBRESOURCE_DATA* pInitialData,
-												ID3D11Texture2D** ppTexture2D) {
+                        const D3D11_SUBRESOURCE_DATA* pInitialData,
+                        ID3D11Texture2D** ppTexture2D) {
 HRESULT hr = S_OK;
 
 if (pDesc == nullptr) {
@@ -84,9 +84,9 @@ return hr;
 
 HRESULT
 Device::CreateVertexShader(const void* pShaderBytecode,
-													unsigned int BytecodeLength,
-													ID3D11ClassLinkage* pClassLinkage,
-													ID3D11VertexShader** ppVertexShader) {
+                           unsigned int BytecodeLength,
+                           ID3D11ClassLinkage* pClassLinkage,
+                           ID3D11VertexShader** ppVertexShader) {
 HRESULT hr = S_OK;
 
 if (pShaderBytecode == nullptr) {
@@ -99,7 +99,7 @@ else if (ppVertexShader == nullptr) {
 }
 else {
 	hr = m_device->CreateVertexShader(pShaderBytecode, BytecodeLength, 
-																		pClassLinkage, ppVertexShader);
+                                    pClassLinkage, ppVertexShader);
 	WARNING("Device::CreateVertexShader : [CREATION OF RESOURCE : OK] \n");
 }
 
@@ -108,10 +108,10 @@ return hr;
 
 HRESULT
 Device::CreateInputLayout(const D3D11_INPUT_ELEMENT_DESC* pInputElementDescs,
-													unsigned int NumElements,
-													const void* pShaderBytecodeWithInputSignature,
-													unsigned int BytecodeLength,
-													ID3D11InputLayout** ppInputLayout) {
+                          unsigned int NumElements,
+                          const void* pShaderBytecodeWithInputSignature,
+                          unsigned int BytecodeLength,
+                          ID3D11InputLayout** ppInputLayout) {
 HRESULT hr = S_OK;
 
 if (pInputElementDescs == nullptr) {
@@ -128,8 +128,8 @@ else if (ppInputLayout == nullptr) {
 }
 else {
 	hr = m_device->CreateInputLayout(pInputElementDescs, NumElements,
-																	pShaderBytecodeWithInputSignature,
-																	BytecodeLength, ppInputLayout);
+                                   pShaderBytecodeWithInputSignature,
+                                   BytecodeLength, ppInputLayout);
 	WARNING("Device::CreateInputLayout : [CREATION OF RESOURCE : OK] \n");
 }
 
@@ -138,9 +138,9 @@ return hr;
 
 HRESULT
 Device::CreatePixelShader(const void* pShaderBytecode,
-													unsigned int BytecodeLength,
-													ID3D11ClassLinkage* pClassLinkage,
-													ID3D11PixelShader** ppPixelShader) {
+                          unsigned int BytecodeLength,
+                          ID3D11ClassLinkage* pClassLinkage,
+                          ID3D11PixelShader** ppPixelShader) {
 HRESULT hr;
 
 if (pShaderBytecode == nullptr) {
@@ -161,8 +161,8 @@ return hr;
 
 HRESULT
 Device::CreateBuffer(const D3D11_BUFFER_DESC* pDesc,
-										const D3D11_SUBRESOURCE_DATA* pInitialData,
-										ID3D11Buffer** ppBuffer) {
+                     const D3D11_SUBRESOURCE_DATA* pInitialData,
+                     ID3D11Buffer** ppBuffer) {
 HRESULT hr;
 
 if (pDesc == nullptr) {
@@ -183,7 +183,7 @@ else {
 
 HRESULT
 Device::CreateSamplerState(const D3D11_SAMPLER_DESC* pSamplerDesc,
-													ID3D11SamplerState** ppSamplerState) {
+                           ID3D11SamplerState** ppSamplerState) {
 HRESULT hr;
 
 if (pSamplerDesc == nullptr) {

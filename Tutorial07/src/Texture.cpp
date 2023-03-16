@@ -23,11 +23,11 @@ if (device.m_device == nullptr) {
 HRESULT hr = S_OK;
 
 hr = D3DX11CreateShaderResourceViewFromFile(device.m_device,
-	textureName.c_str(),
-	nullptr,
-	nullptr,
-	&m_textureFromImg,
-	nullptr);
+                                            textureName.c_str(),
+                                            nullptr,
+                                            nullptr,
+                                            &m_textureFromImg,
+                                            nullptr);
 
 if (FAILED(hr)) {
 	WARNING("ERROR: Texture::init : [CREATION OF RESOURCE : FALSE] [CHECK FOR correct texture name in Filepath] \n");
@@ -37,10 +37,10 @@ if (FAILED(hr)) {
 
 void
 Texture::init(Device device,
-							unsigned int width,
-							unsigned int height,
-							DXGI_FORMAT Format,
-							unsigned int BindFlags) {
+              unsigned int width,
+              unsigned int height,
+              DXGI_FORMAT Format,
+              unsigned int BindFlags) {
 if (device.m_device == nullptr) {
 	WARNING("ERROR: Texture::init : [CREATION OF RESOURCE : FALSE] [CHECK FOR Device device] \n");
 	exit(1);

@@ -12,18 +12,18 @@ InputLayout() = default;
 
 	
 void
-	init(Device device,
-			std::vector<D3D11_INPUT_ELEMENT_DESC> Layout,
-			ID3DBlob* VertexShaderData);
+init(Device device,
+     std::vector<D3D11_INPUT_ELEMENT_DESC> Layout,
+     ID3DBlob* VertexShaderData);
 
 void
-	update();
+update();
 
 void
-	render();
+render();
 
 void
-	destroy();
+destroy();
 
 public:
 ID3D11InputLayout* m_inputLayout = nullptr;

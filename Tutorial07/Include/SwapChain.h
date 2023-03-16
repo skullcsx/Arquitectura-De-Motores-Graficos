@@ -22,9 +22,9 @@ SwapChain() = default;
 	
 void
 init(Device& device,
-		DeviceContext& deviceContext,
-		Texture& backBuffer,
-		Window window);
+     DeviceContext& deviceContext,
+     Texture& backBuffer,
+     Window window);
 
 void
 update();

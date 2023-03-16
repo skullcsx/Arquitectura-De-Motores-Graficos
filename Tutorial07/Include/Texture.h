@@ -17,10 +17,10 @@ init(Device device, std::string textureName);
 
 void
 init(Device device,
-		 unsigned int width,
-		 unsigned int height,
-		 DXGI_FORMAT Format,
-		 unsigned int BindFlags);
+		unsigned int width,
+		unsigned int height,
+		DXGI_FORMAT Format,
+		unsigned int BindFlags);
 
 void
 update();

@@ -14,7 +14,7 @@ RenderTargetView() = default;
 
 void
 init(Device device, 
-		Texture backBuffer, DXGI_FORMAT Format);
+    Texture backBuffer, DXGI_FORMAT Format);
 
 void
 update();

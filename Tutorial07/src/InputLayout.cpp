@@ -15,10 +15,10 @@ else if (VertexShaderData == nullptr) {
 }
 
 device.CreateInputLayout(Layout.data(),
-						 Layout.size(),
-						 VertexShaderData->GetBufferPointer(),
-						 VertexShaderData->GetBufferSize(),
-						 &m_inputLayout);
+												Layout.size(),
+												VertexShaderData->GetBufferPointer(),
+												VertexShaderData->GetBufferSize(),
+												&m_inputLayout);
 }
 
 void

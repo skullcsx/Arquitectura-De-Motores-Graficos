@@ -40,8 +40,8 @@ Device::CreateDepthStencilView(ID3D11Resource* pResource,
 
 HRESULT
 Device::CreateRenderTargetView(ID3D11Resource* pResource,
-	const D3D11_RENDER_TARGET_VIEW_DESC* pDesc,
-	ID3D11RenderTargetView** ppRTView) {
+															const D3D11_RENDER_TARGET_VIEW_DESC* pDesc,
+															ID3D11RenderTargetView** ppRTView) {
 	HRESULT hr = S_OK;
 
 	if (pResource == nullptr) {
@@ -84,9 +84,9 @@ return hr;
 
 HRESULT
 Device::CreateVertexShader(const void* pShaderBytecode,
-													 unsigned int BytecodeLength,
-													 ID3D11ClassLinkage* pClassLinkage,
-													 ID3D11VertexShader** ppVertexShader) {
+													unsigned int BytecodeLength,
+													ID3D11ClassLinkage* pClassLinkage,
+													ID3D11VertexShader** ppVertexShader) {
 HRESULT hr = S_OK;
 
 if (pShaderBytecode == nullptr) {
@@ -99,7 +99,7 @@ else if (ppVertexShader == nullptr) {
 }
 else {
 	hr = m_device->CreateVertexShader(pShaderBytecode, BytecodeLength, 
-									  pClassLinkage, ppVertexShader);
+																		pClassLinkage, ppVertexShader);
 	WARNING("Device::CreateVertexShader : [CREATION OF RESOURCE : OK] \n");
 }
 
@@ -128,8 +128,8 @@ else if (ppInputLayout == nullptr) {
 }
 else {
 	hr = m_device->CreateInputLayout(pInputElementDescs, NumElements,
-									 pShaderBytecodeWithInputSignature,
-									 BytecodeLength, ppInputLayout);
+																	pShaderBytecodeWithInputSignature,
+																	BytecodeLength, ppInputLayout);
 	WARNING("Device::CreateInputLayout : [CREATION OF RESOURCE : OK] \n");
 }
 
@@ -161,8 +161,8 @@ return hr;
 
 HRESULT
 Device::CreateBuffer(const D3D11_BUFFER_DESC* pDesc,
-										 const D3D11_SUBRESOURCE_DATA* pInitialData,
-										 ID3D11Buffer** ppBuffer) {
+										const D3D11_SUBRESOURCE_DATA* pInitialData,
+										ID3D11Buffer** ppBuffer) {
 HRESULT hr;
 
 if (pDesc == nullptr) {

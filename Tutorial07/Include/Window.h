@@ -9,7 +9,7 @@ Window();
 
 HRESULT
 init(HINSTANCE hInstance, 
-		int nCmdShow, WNDPROC wndproc);
+    int nCmdShow, WNDPROC wndproc);
 
 void
 update();

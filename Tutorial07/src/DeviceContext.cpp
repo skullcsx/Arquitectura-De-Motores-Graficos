@@ -43,8 +43,8 @@ m_deviceContext->PSSetConstantBuffers(StartSlot, NumBuffers, ppConstantBuffers);
 
 void 
 DeviceContext::PSSetShader(ID3D11PixelShader* pPixelShader, 
-													 ID3D11ClassInstance* const* ppClassInstances, 
-													 unsigned int NumClassInstances){
+													ID3D11ClassInstance* const* ppClassInstances, 
+													unsigned int NumClassInstances){
 m_deviceContext->PSSetShader(pPixelShader, ppClassInstances, NumClassInstances);
 }
 
@@ -57,16 +57,16 @@ m_deviceContext->VSSetConstantBuffers(StartSlot, NumBuffers, ppConstantBuffers);
 
 void 
 DeviceContext::VSSetShader(ID3D11VertexShader* pVertexShader, 
-													 ID3D11ClassInstance* const* ppClassInstances, 
-													 unsigned int NumClassInstances){
+													ID3D11ClassInstance* const* ppClassInstances, 
+													unsigned int NumClassInstances){
 m_deviceContext->VSSetShader(pVertexShader, ppClassInstances, NumClassInstances);
 }
 
 void 
 DeviceContext::ClearDepthStencilView(ID3D11DepthStencilView* pDepthStencilView, 
-																		 unsigned int ClearFlags, 
-																		 float Depth, 
-																		 unsigned int Stencil){
+																		unsigned int ClearFlags, 
+																		float Depth, 
+																		unsigned int Stencil){
 m_deviceContext->ClearDepthStencilView(pDepthStencilView, ClearFlags, Depth, Stencil);
 }
 
@@ -78,11 +78,11 @@ m_deviceContext->ClearRenderTargetView(pRenderTargetView, ColorRGBA);
 
 void 
 DeviceContext::UpdateSubresource(ID3D11Resource* pDstResource, 
-																 unsigned int DstSubresource, 
-																 const D3D11_BOX* pDstBox, 
-																 const void* pSrcData, 
-																 unsigned int SrcRowPitch, 
-																 unsigned int SrcDepthPitch){
+																unsigned int DstSubresource, 
+																const D3D11_BOX* pDstBox, 
+																const void* pSrcData, 
+																unsigned int SrcRowPitch, 
+																unsigned int SrcDepthPitch){
 m_deviceContext->UpdateSubresource(pDstResource, DstSubresource, pDstBox, pSrcData, SrcRowPitch, SrcDepthPitch);
 }
 
@@ -109,7 +109,7 @@ m_deviceContext->IASetVertexBuffers(StartSlot,NumBuffers,ppVertexBuffers,pStride
 
 void 
 DeviceContext::IASetInputLayout(ID3D11InputLayout* pInputLayout){
-m_deviceContext->IASetInputLayout(pInputLayout);
+																m_deviceContext->IASetInputLayout(pInputLayout);
 }
 
 void 
@@ -127,8 +127,8 @@ m_deviceContext->OMSetRenderTargets(NumViews, ppRenderTargetViews, pDepthStencil
 
 void 
 DeviceContext::DrawIndexed(unsigned int IndexCount, 
-													 unsigned int StartIndexLocation, 
-													 unsigned int BaseVertexLocation){
+													unsigned int StartIndexLocation, 
+													unsigned int BaseVertexLocation){
 m_deviceContext->DrawIndexed(IndexCount, StartIndexLocation, BaseVertexLocation);
 }
 

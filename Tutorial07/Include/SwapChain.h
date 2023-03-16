@@ -1,47 +1,48 @@
 #include "Prerequisites.h"
 
 class
-	Device;
+Device;
 
 class
-	DeviceContext;
+DeviceContext;
 
 class
-	Window;
+Window;
 
 class
-	Texture;
+Texture;
 
-class SwapChain {
+class 
+SwapChain{
 
 public:
-	SwapChain() = default;
-	~SwapChain() {};
+SwapChain() = default;
+~SwapChain() {};
 
 	
-	void
-		init(Device& device,
-			DeviceContext& deviceContext,
-			Texture& backBuffer,
-			Window window);
+void
+init(Device& device,
+	 DeviceContext& deviceContext,
+	 Texture& backBuffer,
+	 Window window);
 
-	void
-		update();
+void
+update();
 
-	void
-		render();
+void
+render();
 
-	void
-		destroy();
+void
+destroy();
 
 	
-	void
-		present();
+void
+present();
 
 
 private:
-	D3D_DRIVER_TYPE m_driverType = D3D_DRIVER_TYPE_NULL;
-	D3D_FEATURE_LEVEL m_featureLevel = D3D_FEATURE_LEVEL_11_0;
-	IDXGISwapChain* m_swapChain = nullptr;
+D3D_DRIVER_TYPE m_driverType = D3D_DRIVER_TYPE_NULL;
+D3D_FEATURE_LEVEL m_featureLevel = D3D_FEATURE_LEVEL_11_0;
+IDXGISwapChain* m_swapChain = nullptr;
 
 };

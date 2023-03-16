@@ -1,30 +1,28 @@
 #include "Prerequisites.h"
 
+class
+Device;
 
 class
-	Device;
-
-class
-	SamplerState {
+SamplerState {
 
 public:
-	SamplerState() = default;
-	~SamplerState() {};
+SamplerState() = default;
+~SamplerState() {};
 
 	
-	void
-		init(Device device);
+void
+init(Device device);
 
-	void
-		update();
+void
+update();
 
-	void
-		render();
+void
+render();
 
-	void
-		destroy();
+void
+destroy();
 
 public:
-	ID3D11SamplerState* m_sampler = nullptr;
-
+ID3D11SamplerState* m_sampler = nullptr;
 };

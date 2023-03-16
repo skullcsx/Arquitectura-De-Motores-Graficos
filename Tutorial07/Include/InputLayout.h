@@ -1,31 +1,31 @@
 #include "Prerequisites.h"
 
 class
-	Device;
+Device;
 
 class
-	InputLayout {
+InputLayout {
 
 public:
-	InputLayout() = default;
-	~InputLayout() { SAFE_RELEASE(m_inputLayout) };
+InputLayout() = default;
+~InputLayout() { SAFE_RELEASE(m_inputLayout) };
 
 	
-	void
-		init(Device device,
-			std::vector<D3D11_INPUT_ELEMENT_DESC> Layout,
-			ID3DBlob* VertexShaderData);
+void
+	init(Device device,
+		 std::vector<D3D11_INPUT_ELEMENT_DESC> Layout,
+		 ID3DBlob* VertexShaderData);
 
-	void
-		update();
+void
+	update();
 
-	void
-		render();
+void
+	render();
 
-	void
-		destroy();
+void
+	destroy();
 
 public:
-	ID3D11InputLayout* m_inputLayout = nullptr;
+ID3D11InputLayout* m_inputLayout = nullptr;
 
 };

@@ -1,30 +1,31 @@
 #include "Prerequisites.h"
 
 class
-	Device;
+Device;
 
 class
-	Texture;
+Texture;
 
 class
-	RenderTargetView {
+RenderTargetView {
 public:
-	RenderTargetView() = default;
-	~RenderTargetView() {};
+RenderTargetView() = default;
+~RenderTargetView() {};
 
-	void
-		init(Device device, Texture backBuffer, DXGI_FORMAT Format);
+void
+init(Device device, 
+	 Texture backBuffer, DXGI_FORMAT Format);
 
-	void
-		update();
+void
+update();
 
-	void
-		render();
+void
+render();
 
-	void
-		destroy();
+void
+destroy();
 
 public:
-	ID3D11RenderTargetView* m_renderTargetView = nullptr;
+ID3D11RenderTargetView* m_renderTargetView = nullptr;
 
 };

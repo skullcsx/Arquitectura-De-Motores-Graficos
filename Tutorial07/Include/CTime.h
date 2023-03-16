@@ -1,29 +1,29 @@
 #include <Windows.h>
 #pragma once
 
-class CTime
-{
+class
+CTime{
 public:
-	CTime();
-	~CTime();
+CTime();
+~CTime();
 
-	void 
-	init();
+void 
+init();
 
-	void 
-	update();
+void 
+update();
 
-	void 
-	render();
+void 
+render();
 
-	void
-	destroy();
+void
+destroy();
 
 public:
-	float m_deltaTime;
+float m_deltaTime;
 private:
-	LARGE_INTEGER m_currentTime;
-	LARGE_INTEGER m_lastTime;
-	LARGE_INTEGER m_timerFrequency;
+LARGE_INTEGER m_currentTime;
+LARGE_INTEGER m_lastTime;
+LARGE_INTEGER m_timerFrequency;
 };
 

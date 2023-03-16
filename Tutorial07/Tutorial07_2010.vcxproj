@@ -414,9 +414,9 @@
     <ClCompile Include="src\Window.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Device.h" />
     <ClInclude Include="Include\Commons.h" />
     <ClInclude Include="Include\DepthStencilView.h" />
+    <ClInclude Include="Include\Device.h" />
     <ClInclude Include="Include\DeviceContext.h" />
     <ClInclude Include="Include\InputLayout.h" />
     <ClInclude Include="Include\Prerequisites.h" />

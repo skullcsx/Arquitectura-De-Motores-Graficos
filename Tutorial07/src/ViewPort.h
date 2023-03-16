@@ -1,26 +1,27 @@
 #include "Prerequisites.h"
 
 class
-	Window;
+Window;
 
 class
-	Viewport {
-public:
-	Viewport() = default;
-	~Viewport() {};
-
-	void
-		init(Window window);
-
-	void
-		update();
-
-	void
-		render();
-
-	void
-		destroy();
+Viewport {
 
 public:
-	D3D11_VIEWPORT m_viewport;
+Viewport() = default;
+~Viewport() {};
+
+void
+init(Window window);
+
+void
+update();
+
+void
+render();
+
+void
+destroy();
+
+public:
+D3D11_VIEWPORT m_viewport;
 };

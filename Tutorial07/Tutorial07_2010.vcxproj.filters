@@ -76,9 +76,6 @@
     <ClInclude Include="Include\DeviceContext.h">
       <Filter>Include</Filter>
     </ClInclude>
-    <ClInclude Include="Device.h">
-      <Filter>Include</Filter>
-    </ClInclude>
     <ClInclude Include="src\ViewPort.h">
       <Filter>Include</Filter>
     </ClInclude>
@@ -104,6 +101,9 @@
       <Filter>Include</Filter>
     </ClInclude>
     <ClInclude Include="Include\Transform.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Device.h">
       <Filter>Include</Filter>
     </ClInclude>
   </ItemGroup>

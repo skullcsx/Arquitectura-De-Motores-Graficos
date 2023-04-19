@@ -44,6 +44,7 @@
 //ID3D11VertexShader* g_pVertexShader = nullptr;
 //ID3D11PixelShader* g_pPixelShader = nullptr;
 
+D3D_DRIVER_TYPE g_driverType = D3D_DRIVER_TYPE_NULL;
 
 ID3D11Buffer* g_Camera = nullptr;
 //ID3D11Buffer* g_pCBChangesEveryFrame = nullptr;
@@ -93,6 +94,7 @@ ConstantBuffer                      g_constantBuffer;
 //--------------------------------------------------------------------------------------
 // Forward declarations
 //--------------------------------------------------------------------------------------
+
 HRESULT
 InitWindow(HINSTANCE hInstance, int nCmdShow);
 HRESULT
@@ -330,7 +332,18 @@ HRESULT InitDevice()
 void update()
 {
     // Update our time
-
+   if (g_driverType == D3D_DRIVER_TYPE_REFERENCE)
+    {
+        g_time.m_deltaTime += (float)XM_PI * 0.0125f;
+    }
+    else
+    {
+        static unsigned int dwTimeStart = 0;
+        unsigned int dwTimeCur = GetTickCount();
+        if (dwTimeStart == 0)
+            dwTimeStart = dwTimeCur;
+        g_time.m_deltaTime = (dwTimeCur - dwTimeStart) / 1000.0f;
+    }
     // Modify the color
 
     //Asignamos el color del meshcolor.x a la variable "R" la cual tiene un valor de 0 y es dodne almacenaremos el color rojo

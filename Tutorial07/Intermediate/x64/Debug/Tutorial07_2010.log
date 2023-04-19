@@ -117,5 +117,5 @@ D:\Include\xnamathvector.inl(1269,78): warning C4838: conversion from 'unsigned 
 D:\Include\xnamathmisc.inl(518,43): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
 D:\Include\xnamathmisc.inl(519,40): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
 D:\Include\xnamathmisc.inl(519,51): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
-D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(529,54): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\Visual Arquitectura de motores graficos\Tutorial07\src\Tutorial07.cpp(542,54): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
   Tutorial07_2010.vcxproj -> D:\Visual Arquitectura de motores graficos\Tutorial07\bin\x64\Tutorial07_d.exe

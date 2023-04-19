@@ -4,6 +4,12 @@
 class
 Device;
 
+class
+DeviceContext;
+
+class
+DepthStencilView;
+
 //call the class Texture
 class
 Texture;
@@ -24,7 +30,7 @@ void
 update();
 
 void
-render();
+render(DeviceContext& deviceContext, DepthStencilView& depthStencilView);
 
 void
 destroy();

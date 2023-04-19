@@ -9,7 +9,7 @@ Window();
 
 HRESULT
 init(HINSTANCE hInstance,
-     int nCmdShow, WNDPROC wndproc);
+     int nCmdShow, WNDPROC wndproc, LPCSTR windowName);
 
 void
 update();
@@ -27,5 +27,5 @@ HINSTANCE m_hinst = nullptr;
 RECT m_rect;
 unsigned int m_width;
 unsigned int m_height;
-std:: string m_windowName = "Cexy Engine";
+LPCSTR m_windowName = "Cexy Engine";
 };

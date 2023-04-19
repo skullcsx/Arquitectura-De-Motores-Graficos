@@ -13,6 +13,15 @@ XMFLOAT3 Pos;
 XMFLOAT2 Tex;
 };
 
+struct
+  LoadData {
+  std::string name;
+  std::vector <SimpleVertex> vertex;
+  std::vector <unsigned int> index;
+  int numVertex;
+  int numIndex;
+};
+
 //Create a Camera structure 
 struct 
 Camera{

@@ -1,32 +1,32 @@
+#pragma once
 #include "Prerequisites.h"
 
-class
-Device;
 
 class
-InputLayout {
+	Device;
+
+class
+	InputLayout {
 
 public:
-InputLayout() = default;
-~InputLayout() { SAFE_RELEASE(m_inputLayout) };
+	InputLayout() = default;
+	~InputLayout() { SAFE_RELEASE(m_inputLayout) };
 
-	
-//we initialize the InputLayout
-void
-init(Device device,
-     std::vector<D3D11_INPUT_ELEMENT_DESC> Layout,
-     ID3DBlob* VertexShaderData);
+	void
+		init(Device device,
+			std::vector<D3D11_INPUT_ELEMENT_DESC> Layout,
+			ID3DBlob* VertexShaderData);
 
-void
-update();
+	void
+		update();
 
-void
-render();
+	void
+		render();
 
-void
-destroy();
+	void
+		destroy();
 
 public:
-ID3D11InputLayout* m_inputLayout = nullptr;
+	ID3D11InputLayout* m_inputLayout = nullptr;
 
 };

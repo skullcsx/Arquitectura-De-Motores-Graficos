@@ -5,6 +5,9 @@
 class
 Device;
 
+class
+DeviceContext;
+
 //Create the class DepthStencilView
 class
 DepthStencilView {
@@ -20,7 +23,7 @@ void
 update();
 
 void
-render();
+render(DeviceContext& deviceContext);
 
 void
 destroy();

@@ -4,6 +4,9 @@ class
 Window;
 
 class
+DeviceContext;
+
+class
 Viewport {
 
 public:
@@ -18,7 +21,7 @@ void
 update();
 
 void
-render();
+render(DeviceContext& deviceContext);
 
 void
 destroy();

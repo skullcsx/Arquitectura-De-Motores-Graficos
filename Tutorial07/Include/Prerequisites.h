@@ -2,8 +2,9 @@
 #include <iostream>
 #include <sstream>
 #include <vector>
+#include <string>
 
-//External libs
+//External includes
 #include <d3d11.h>
 #include <d3dx11.h>
 #include <d3dcompiler.h>

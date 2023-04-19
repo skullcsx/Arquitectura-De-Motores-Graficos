@@ -5,6 +5,9 @@ class
 Device;
 
 class
+DeviceContext;
+
+class
 SamplerState {
 
 public:
@@ -19,7 +22,7 @@ void
 update();
 
 void
-render();
+render(DeviceContext& deviceContext);
 
 void
 destroy();
